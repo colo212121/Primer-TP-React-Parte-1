@@ -17,11 +17,13 @@ function App() {
   }
 
   return (
-    <div className="contenedor">
+    <>
       <Header />
-      <Formulario agregarCita={agregarCita} />
-      <ListadoCitas citas={citas} eliminarCita={eliminarCita} />
-    </div>
+      <div className="contenedor">
+        <Formulario agregarCita={agregarCita} />
+        <ListadoCitas citas={citas} eliminarCita={eliminarCita} />
+      </div>
+    </>
   )
 }
 

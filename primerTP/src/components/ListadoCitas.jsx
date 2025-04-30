@@ -3,7 +3,7 @@ import './ListadoCitas.css'
 
 function ListadoCitas({ citas, eliminarCita }) {
   return (
-    <div className='Listado'>
+    <div className='listado'>
       <h2>Listado de Citas</h2>
 
       {citas.length === 0 && <p><strong>No hay citas todavía</strong></p>}
